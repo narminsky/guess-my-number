@@ -14,6 +14,7 @@ document.querySelector(".again").addEventListener("click", function () {
     document.body.style.backgroundColor = "#222";
     document.querySelector(".score").innerText = 20;
     document.querySelector(".guess").value = "";
+    score = 20;
 });
 
 document.querySelector(".check").addEventListener("click", function () {
